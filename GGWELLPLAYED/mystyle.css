@@ -1,6 +1,61 @@
 .navbar {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif,
+    "impact", Times, serif;
+
   font-size: large;
   font-style: oblique;
   padding-bottom: 20px;
+}
+#demo {
+  position: absolute;
+  padding: 0px;
+}
+.content1 {
+  border: 10px solid salmon;
+}
+.col-12 {
+  text-align: center;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 7, 7, 0.8733184471558989) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+#main1 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 7, 7, 0.8733184471558989) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  position: relative;
+  top: 815px;
+}
+.content0 {
+  text-align: center;
+  border: solid 1px gray;
+  width: 100%;
+  color: aliceblue;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 7, 7, 0.8733184471558989) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+#arenaa {
+  border-radius: 5px;
+}
+#arenab {
+  border-radius: 5px;
+}
+#add {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  background-color: transparent;
 }
